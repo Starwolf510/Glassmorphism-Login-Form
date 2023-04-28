@@ -1,0 +1,116 @@
+body {
+    height: 100vh;
+    background-image: url(images/background.jpg); 
+    background-size: cover;
+    background-position: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    min-width: 325px;
+}
+
+.glass {
+    background-color: rgba(255, 255, 255, 0.122);
+    border-color: rgba(255, 255, 255, 0.048);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    text-align: center;
+}
+
+h1 {
+    margin: 1em 0 2em ;
+    font-size: 1.7em;
+    font-weight: 700;
+    font-stretch: narrower;
+    color: #ffffff;
+}
+
+label {
+    display: block;
+    margin: 0.5em;
+}
+
+p {
+    margin: 2em 0 0.4em 0;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.written-info {
+    display: block;
+    width: 100%;
+    padding: 1.1em 0.5em;
+    box-sizing: border-box;
+    border-color: rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+
+.written-info::placeholder {
+    color: #b3b3b36f;
+}
+
+/*
+.written-info:focus {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+*/
+
+.written-info:focus, .written-info:valid {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.login {
+    width: 94%;
+    margin: 2em 0 0.4em 0;
+    padding: 0.8em;
+    border-color: transparent;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.login:hover {
+    cursor: pointer;
+}
+
+.login:active {
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35);
+}
+
+button {
+    width: 35%;
+    height: 3.5em;
+    margin: 2em 1.3em 1em;
+    padding: 0.8em;
+    border-color: transparent;
+    border-radius: 6px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35);
+}
+
+i {
+    padding-right: 5px;
+}
+
