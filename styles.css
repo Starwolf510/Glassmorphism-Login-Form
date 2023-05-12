@@ -61,18 +61,6 @@ p {
     color: #b3b3b36f;
 }
 
-/*
-.written-info:focus {
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.3)
-}
-*/
-
-.written-info:focus, .written-info:valid {
-    color: #000000;
-    background-color: #ffffff;
-}
-
 .login {
     width: 94%;
     margin: 2em 0 0.4em 0;
